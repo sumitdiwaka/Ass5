@@ -76,12 +76,13 @@
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    animation-direction: reverse;
 }
 #boxes2{
     height: 60vh;
     width: 60vh;
-     /* border: 1px solid #EEDFF9;; */
-     border: 1px solid black;
+     border: 1px solid #EEDFF9;;
+     /* border: 1px solid black; */
      margin-top: -400px;
      margin-left: 60px;
 
@@ -92,6 +93,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     position: relative;
+    animation-direction: reverse;
     /* z-index: -2; */
     /* bottom: 50px; */
     /* right: -50 px; */
@@ -140,7 +142,7 @@
     }
 
     100%{
-        transform: rotate(-360deg);
+        transform: rotate(-90deg);
     }
 }
 #boxes5{
